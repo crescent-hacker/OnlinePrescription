@@ -1,0 +1,26 @@
+<table border="1"  cellspacing='2' width='auto'>
+	
+	<tr>
+		<th>Title</th>
+		<th>First Name</th>
+		<th>Last Name</th>
+		<th>Hospital</th>
+		<th>Department</th>
+		<th>Registration Date</th>
+		<th>Status</th>
+		
+	</tr>
+
+	#foreach($line in $doctorList)
+		<tr>
+			<td align="left">$line.title</td>
+			<td align="left">$line.firstName</td>
+			<td align="left">$line.lastName</td>
+			<td align="left">$line.hospital</td>
+			<td align="left">$line.department</td>
+			<td align="left">$line.registrationDate</td>
+			<td align="left">$line.status</td>	
+		</tr>
+		
+	#end	
+</table>

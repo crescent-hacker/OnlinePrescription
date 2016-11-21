@@ -1,0 +1,26 @@
+<table border="1"  cellspacing='2' width='auto'>
+	
+	<tr>
+		<th>Name</th>
+		<th>Street</th>
+		<th>Postcode</th>
+		<th>Suburb</th>
+		<th>Phone</th>
+		<th>Registration Date</th>
+		<th>Status</th>
+		
+	</tr>
+
+	#foreach($line in $pharmList)
+		<tr>
+			<td align="left">$line.name</td>
+			<td align="left">$line.street</td>
+			<td align="left">$line.postcode</td>
+			<td align="left">$line.suburb</td>
+			<td align="left">$line.phone</td>
+			<td align="left">$line.registrationDate</td>
+			<td align="left">$line.status</td>	
+		</tr>
+		
+	#end	
+</table>

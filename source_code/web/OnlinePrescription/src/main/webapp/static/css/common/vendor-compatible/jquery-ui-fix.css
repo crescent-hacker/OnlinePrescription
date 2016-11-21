@@ -1,0 +1,10 @@
+/*fix juery-ui font color*/
+
+.ui-widget-header {
+    color: black;
+}
+
+.ui-widget-header a {
+    color: black;
+}
+

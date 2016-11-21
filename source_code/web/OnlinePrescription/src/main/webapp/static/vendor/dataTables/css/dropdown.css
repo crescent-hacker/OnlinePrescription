@@ -1,0 +1,86 @@
+body{
+    padding:0;
+    margin:0;
+}
+.dataTables_wrapper .menu{
+      font: 13px/27px Arial,sans-serif;
+ 
+      color:#3366CC;
+      height:30px;
+     
+}
+.dataTables_wrapper .menu a:hover{
+    background-color: #ffc790;
+    color: #636363;
+   
+}
+.dataTables_wrapper .menu a {
+    text-decoration: none;
+    padding: 4px 8px 7px;
+    color:#636363;
+    outline:none;
+    color: white;
+}
+.dataTables_wrapper .menu ul{
+    list-style: none;
+    margin:0;
+    padding:0 0 0 10px;
+}
+.dataTables_wrapper .menu ul li{
+    padding:0;
+    float:left;
+ 
+}
+.dataTables_wrapper .menu ul li ul li{
+    padding:0;
+    float:none;
+    margin: 0 0 0 0px;
+    width:100%;
+}
+.dataTables_wrapper .menu ul li ul{
+    position: absolute;
+    border: 1px solid #C3D1EC;
+    box-shadow: 0 1px 5px #CCCCCC;
+    margin-top: -1px;
+    display:none;
+    padding: 0px 16px 0px 0;
+}
+.dataTables_wrapper .active ul{
+    display:block !important;
+}
+.dataTables_wrapper .active a{
+    background-color: white;
+    border: 1px solid #C3D1EC;
+    border-bottom: 0;
+    box-shadow: 0 -1px 5px #CCCCCC;
+    display: block;
+    height: 29px;
+    padding: 0 8px 0 8px;
+    position:relative;
+    z-index: 1;
+     color: #636363;
+}
+.dataTables_wrapper .active a:hover{
+    background-color:white;
+    color: #636363;
+}
+.dataTables_wrapper .active ul a:hover{
+    background-color:#ffc790;
+    
+}
+
+.dataTables_wrapper .active ul a{
+    border: 0 !important;
+    box-shadow: 0 0 0 #CCCCCC;
+    border:0;
+    width: 100%;
+    color: #636363;
+}
+.dataTables_wrapper .arrow {
+	
+    border-color: #636363 transparent transparent;
+    border-style: solid dashed dashed;
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+}

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">OnlinePrescription</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="logout">Log out</string>
+    <string name="title_activity_order_detail">OrderDetailActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="username">Username</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="user_account_filename">user_account</string>
+    <string name="url_login">http://23.105.210.117:8080/OnlinePrescription/mobile/login.ajax</string>
+    <string name="url_getprescriptionlist">http://23.105.210.117:8080/OnlinePrescription/mobile/getPrescriptionList.ajax</string>
+    <string name="url_getprescriptiondetail">http://23.105.210.117:8080/OnlinePrescription/mobile/getPrescriptionDetail.ajax</string>
+    <string name="url_getuntreatedorderlist">http://23.105.210.117:8080/OnlinePrescription/mobile/getUntreatedOrderList.ajax</string>
+    <string name="url_getpharmacylist">http://23.105.210.117:8080/OnlinePrescription/mobile/getPharmacyList.ajax</string>
+    <string name="url_order">http://23.105.210.117:8080/OnlinePrescription/mobile/order.ajax</string>
+    <string name="url_getorderlist">http://23.105.210.117:8080/OnlinePrescription/mobile/getOrderList.ajax</string>
+    <string name="url_getorderdetail">http://23.105.210.117:8080/OnlinePrescription/mobile/getOrderDetail.ajax</string>
+    <string name="url_viewprofile">http://23.105.210.117:8080/OnlinePrescription/mobile/viewProfile.ajax</string>
+    <string name="url_editprofile">http://23.105.210.117:8080/OnlinePrescription/mobile/editProfile.ajax</string>
+    <string name="url_getpharmacydetail">http://23.105.210.117:8080/OnlinePrescription/mobile/getPharmacyDetail.ajax</string>
+    <string name="title_activity_pharmacymaps">Map</string>
+</resources>

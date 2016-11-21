@@ -1,0 +1,24 @@
+<table border="1"  cellspacing='2' width='auto'>
+	
+	<tr>
+		<th>Last Name</th>
+		<th>First Name</th>
+		<th>SALUTATION</th>
+		<th>Address</th>
+		<th>CITY</th>
+		<th>STATE/Province</th>
+		
+	</tr>
+
+	#foreach($line in $personList)
+		<tr>
+			<td align="left">$line.FirstName</td>
+			<td align="left">$line.LastName</td>
+			<td align="left">$line.street</td>
+			<td align="left">$line.city</td>
+			<td align="left">$line.state</td>
+			<td align="left">$line.country</td>	
+		</tr>
+		
+	#end	
+</table>

@@ -1,0 +1,6 @@
+{
+    "prescription_id":"1","prescription_date":"02-06-2016","ordered_repeat":"0","repeat":"3","status":"0","doctor_name":"adiek","hospital_name":"A hospital","total_price":"14.13","list":[
+      {"drug_name":"tdrgu","drug_manufactory":"facility1","does":"20","price":"50"},
+      {"drug_name":"tdrgu2","drug_manufactory":"facility4","does":"50","price":"2"}
+    ]
+}

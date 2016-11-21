@@ -1,0 +1,8 @@
+{
+  "list":[
+    {"prescription_id":"1","prescription_date":"02-06-2016","prescription_status":"0"},
+    {"prescription_id":"2","prescription_date":"03-06-2016","prescription_status":"1"},
+    {"prescription_id":"3","prescription_date":"04-06-2016","prescription_status":"2"},
+    {"prescription_id":"4","prescription_date":"05-06-2016","prescription_status":"1"}
+  ]
+}

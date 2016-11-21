@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+.loaderPosition{
+    margin-left: 590px;
+    margin-top: -410px;
+}
+
+div.form-width {
+    width:500px;
+    margin: auto;
+    border: 3px solid #ffffff;
+}
+
+.select-width{
+	width:250px;
+	margin: auto;
+}

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_prescription_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.haotan.prescription.PrescriptionDetailActivity">
+    <TextView
+        android:text="Prescription Number:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:text="Date:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5"
+        android:textSize="16dp" />
+
+    <TextView
+        android:text="Repeatable Time:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView8"
+        android:textSize="16dp" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDateofpres"
+        android:layout_alignLeft="@+id/tvDateofpres"
+        android:layout_alignStart="@+id/tvDateofpres"
+        android:id="@+id/tvRepeattime"
+        android:textSize="16dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:text="Repeated Times:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView14"
+        android:textSize="16dp" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRepeattime"
+        android:layout_alignLeft="@+id/tvRepeattime"
+        android:layout_alignStart="@+id/tvRepeattime"
+        android:id="@+id/tvRepeatedtims"
+        android:textSize="16dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:text="Status:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView18"
+        android:textSize="16dp" />
+
+    <TextView
+        android:text="Doctor:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView20"
+        android:textSize="16dp" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStatus"
+        android:layout_alignLeft="@+id/tvStatus"
+        android:layout_alignStart="@+id/tvStatus"
+        android:id="@+id/tvDoctor"
+        android:textSize="16dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:text="Hospital:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView22"
+        android:textSize="16dp" />
+
+    <TextView
+        android:text="Total Price:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView24"
+        android:textSize="16dp" />
+    <TextView
+        android:text="Duration:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView25"
+        android:textSize="16dp" />
+    <TextView
+        android:text="Description:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView27"
+        android:textSize="16dp" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHospital"
+        android:layout_alignLeft="@+id/tvHospital"
+        android:layout_alignStart="@+id/tvHospital"
+        android:id="@+id/tvTotalPrice"
+        android:textSize="16dp"
+        android:textColor="#000000" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTotalPrice"
+        android:layout_alignLeft="@+id/tvTotalPrice"
+        android:layout_alignStart="@+id/tvTotalPrice"
+        android:id="@+id/tvDuration"
+        android:textSize="16dp"
+        android:textColor="#000000" />
+    <TextView
+        android:text="TextViewTextViewTextViewTextViewTextViewTextViewTextViewTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDuration"
+        android:layout_alignLeft="@+id/tvDuration"
+        android:layout_alignStart="@+id/tvDuration"
+        android:id="@+id/tvDescription"
+        android:textSize="16dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDateofpres"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/tvPresno"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPresno"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_alignLeft="@+id/tvDateofpres"
+        android:layout_alignStart="@+id/tvDateofpres" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHospital"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/tvDoctor"
+        android:layout_alignLeft="@+id/tvDoctor"
+        android:layout_alignStart="@+id/tvDoctor" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvStatus"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/tvRepeatedtims"
+        android:layout_alignLeft="@+id/tvRepeatedtims"
+        android:layout_alignStart="@+id/tvRepeatedtims" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lldraglist"
+        android:layout_below="@+id/tvDescription"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:text="Drug List:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView24"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView26"
+            android:textSize="16dp"
+            android:layout_toStartOf="@+id/tvTotalPrice"
+            android:layout_toLeftOf="@+id/tvTotalPrice"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Amount"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_toRightOf="@+id/textView8"
+            android:layout_weight="2"/>
+        <TextView
+            android:text="Price"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/lvDragList"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView4"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvDragList"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/lldraglist" />
+
+</RelativeLayout>

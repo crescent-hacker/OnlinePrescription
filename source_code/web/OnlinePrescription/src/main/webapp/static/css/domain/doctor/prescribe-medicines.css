@@ -1,0 +1,17 @@
+.entry:not(:first-of-type)
+{
+    margin-top: 10px;
+}
+
+.glyphicon
+{
+    font-size: 12px;
+}
+
+.voca{
+    margin-bottom: 15px;
+}
+
+.prescribe-tips{
+    margin-top:20px;
+}
